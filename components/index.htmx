@@ -1,0 +1,5 @@
+<h1>HTMX</h1>
+<div id="app">
+<div id="count">${count}</div>
+</div>
+<a id="next" hx-target="#app" hx-post="/htmx">next</a>

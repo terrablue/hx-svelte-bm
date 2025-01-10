@@ -1,0 +1,12 @@
+{
+  "name": "p-benchmark",
+  "type": "module",
+  "dependencies": {
+    "@primate/frontend": "^0.16.4",
+    "@primate/htmx": "^0.19.5",
+    "@primate/svelte": "^0.18.3",
+    "htmx-esm": "^0.2.1910",
+    "primate": "^0.32.6",
+    "svelte": "4"
+  }
+}
