@@ -1,0 +1,11 @@
+<h1>HTMX 2</h1>
+<div id="app">${count}</div>
+<script>
+import { htmx } from "app";
+const t0 = performance.now();
+for (let i = 0; i < 1000; i++) {
+ await htmx.ajax("POST", "/htmx2", "#app");
+}
+const t1 = performance.now();
+console.log(\`took \${t1 - t0} milliseconds.\`);
+</script>

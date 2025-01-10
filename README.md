@@ -29,5 +29,6 @@ benchmark is within the Svelte code).
 ## Results (Chromium 131.0.6778.204 Arch Linux)
 
 * HTMX: 11617.9 ms
+* HTMX 2: 10565.7 ms (0.91 faster)
 * Svelte: 17847.8 ms (1.53 slower)
-* Svelte 2: 7976.3 (0.68 faster)
+* Svelte 2: 7976.3 ms (0.68 faster)

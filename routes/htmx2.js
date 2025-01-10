@@ -5,7 +5,7 @@ let count;
 export default {
   get() {
     count = 0;
-    return view("index.htmx", { count });
+    return view("index2.htmx", { count });
   },
   post() {
     count++;
