@@ -23,8 +23,9 @@ To reproduce, run
 ```
 
 In your browser console after loading `http://localhost:6161/htmx`
-`http://localhost:6161/svelte` and `http://localhost:6161/svelte2` (here, the
-benchmark is within the Svelte code).
+`http://localhost:6161/svelte`, `http://localhost:6161/svelte2` and
+`http://localhost:6161/htmx2` (in the latter two, the benchmark is within the
+code).
 
 ## Results (Chromium 131.0.6778.204 Arch Linux)
 
